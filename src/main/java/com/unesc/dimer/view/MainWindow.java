@@ -19,7 +19,7 @@ public class MainWindow extends JFrame {
     public MainWindow() {
         super("Ajuste de curva");
         table.setModel(model);
-        matrizTestes();
+        //matrizTestes();
 
         combo.setModel(new DefaultComboBoxModel<>(TipoCalculo.values()));
         configureClickButtons();
