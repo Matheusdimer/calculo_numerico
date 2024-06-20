@@ -8,12 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d2f95d-0207-405c-8d56-ac774ff81f5f" name="Changes" comment="Base para cálculos e função de primeiro grau.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unesc/dimer/view/FunctionGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unesc/dimer/view/MainWindow.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unesc/dimer/view/MainWindow.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unesc/dimer/view/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unesc/dimer/view/MainWindow.java" afterDir="false" />
+    <list default="true" id="74d2f95d-0207-405c-8d56-ac774ff81f5f" name="Changes" comment="Gráfico boladão das funções.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unesc/dimer/view/FunctionGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unesc/dimer/view/FunctionGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,12 +105,25 @@
       <updated>1717715820399</updated>
       <workItem from="1717715821504" duration="7211000" />
       <workItem from="1718845105530" duration="30000" />
-      <workItem from="1718916763201" duration="2456000" />
+      <workItem from="1718916763201" duration="3101000" />
     </task>
+    <task id="LOCAL-00001" summary="Gráfico boladão das funções.">
+      <option name="closed" value="true" />
+      <created>1718919471770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718919471770</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Gráfico boladão das funções." />
+    <option name="LAST_COMMIT_MESSAGE" value="Gráfico boladão das funções." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

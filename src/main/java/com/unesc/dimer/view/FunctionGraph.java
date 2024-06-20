@@ -49,8 +49,8 @@ public class FunctionGraph extends JFrame {
         // Cria o gráfico
         JFreeChart chart = ChartFactory.createXYLineChart(
                 "Gráfico de Função",
-                "X-Axis",
-                "Y-Axis",
+                "Eixo X",
+                "Eixo Y",
                 dataset,
                 PlotOrientation.VERTICAL,
                 true, true, false);
