@@ -14,12 +14,15 @@ public class MainWindow extends JFrame {
     private JButton excluirLinhaButton;
     private JButton addLinhaButton;
     private JTextField resultadoField;
+    private JPanel chartPanel;
     private final DefaultTableModel model = new DefaultTableModel(new Object[]{"X", "Y"}, 1);
 
     public MainWindow() {
         super("Ajuste de curva");
         table.setModel(model);
-        //matrizTestes();
+//        matrizTestesPrimeiroGrau();
+//        matrizTestesSegundoGrau();
+        matrizTestesTerceiroGrau();
 
         combo.setModel(new DefaultComboBoxModel<>(TipoCalculo.values()));
         configureClickButtons();
@@ -30,7 +33,24 @@ public class MainWindow extends JFrame {
         setVisible(true);
     }
 
-    private void matrizTestes() {
+    private void matrizTestesPrimeiroGrau() {
+        model.setRowCount(0);
+        model.addRow(new Object[]{"-3", "-7.4"});
+        model.addRow(new Object[]{"-2", "-5.8"});
+        model.addRow(new Object[]{"-1", "-4.6"});
+        model.addRow(new Object[]{"1", "-1.3"});
+        model.addRow(new Object[]{"4", "2.8"});
+    }
+
+    private void matrizTestesSegundoGrau() {
+        model.setRowCount(0);
+        model.addRow(new Object[]{"1", "7"});
+        model.addRow(new Object[]{"2", "5"});
+        model.addRow(new Object[]{"5", "1"});
+        model.addRow(new Object[]{"8", "2"});
+    }
+
+    private void matrizTestesTerceiroGrau() {
         model.setRowCount(0);
         model.addRow(new Object[]{"-3", "-7.4"});
         model.addRow(new Object[]{"-2", "-5.8"});
@@ -63,5 +83,6 @@ public class MainWindow extends JFrame {
         String resultado = tipoCalculo.getCalculoAjusteCurva().calcular(matriz);
 
         resultadoField.setText(resultado);
+        new FunctionGraph(resultado, matriz);
     }
 }
